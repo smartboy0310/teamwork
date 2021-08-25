@@ -1,0 +1,17 @@
+@mixin media-max($size: 768px) {
+   @media only screen and(max-width: $size) {
+      @content;
+   }
+}
+
+@mixin reset-list {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+@mixin text-ellipses  {
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
