@@ -1,0 +1,47 @@
+.header__top,
+.header__top__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__top__content {
+	width: 85%;
+	padding: 11px 0 9px 0;
+	margin-left: auto;
+}
+
+.logo__link {
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+	top: 21px;
+}
+
+.header__bottom {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: auto;
+	padding: 20px 0;
+}
+
+.header__nav__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__nav__item + .header__nav__item {
+	margin-left: 55px;
+}
+
+.header__nav__link,
+.askme__link,
+.addres__link,
+.phone__number {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #333333;
+}
