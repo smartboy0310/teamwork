@@ -1,0 +1,73 @@
+.veterinary-clinic {
+   padding-bottom: 190px;
+}
+.veterinary-clinic .container {
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   max-width: 1175px;
+   padding: 21px 60px 0 116px;
+}
+.veterinary-clinic__line-top {
+   display: block;
+   width: 100%;
+   max-width: 140px;
+   height: 1px;
+   margin: 0 auto;
+   margin-bottom: 43px;
+   background-color: #DBDBDB;
+}
+.veterinary-clinic__info {
+   width: 100%;
+   max-width: 753px;
+   margin: 0 auto;
+   margin-bottom: 35px;
+   font-size: 20px;
+   line-height: 25,64px;
+   text-align: center;
+   color: #949494;
+}
+.veterinary-clinic__line-bottom {
+   display: block;
+   width: 100%;
+   max-width: 140px;
+   height: 1px;
+   margin: 0 auto;
+   margin-bottom: 35px;
+   background-color: #DBDBDB;
+}
+.veterinary-clinic__line-bottom::before {
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   left: 80px;
+   transform: translateY(-10%);
+   font-family: "Georgia", "Times New Roman", serif;
+   font-size: 200px;
+   line-height: 250px;
+   color: #DBDBDB;
+   ;
+   content: "“";
+}
+.veterinary-clinic__line-bottom::after {
+   position: absolute;
+   z-index: 1;
+   right: 50px;
+   bottom: 30px;
+   transform: rotate(-180deg);
+   font-family: "Georgia", "Times New Roman", serif;
+   font-size: 200px;
+   line-height: 250px;
+   color: #DBDBDB;
+   content: "“";
+}
+.veterinary-clinic__paragraph {
+   width: 100%;
+   max-width: 357px;
+   margin: 0 auto;
+   padding: 0;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 26px;
+   color: #333;
+}
