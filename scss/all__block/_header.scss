@@ -15,6 +15,16 @@
 	display: inline-block;
 	position: absolute;
 	top: 21px;
+	transition: 0.2s;
+}
+
+.logo__link:hover {
+	opacity: 0.7;
+	transition: 0.2s;
+}
+
+.logo__link:active {
+	opacity: 0.5;
 }
 
 .header__bottom {
@@ -41,7 +51,99 @@
 	text-decoration: none;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 21px;
 	color: #333333;
+	transition: 0.2s;
+}
+
+.phone__number:hover {
+	color: #ffbd54;
+	transition: 0.2s;
+}
+
+.phone__number:active {
+	color: #333333;
+	opacity: 0.6;
+}
+
+.header__nav__link,
+.askme__link {
+	font-size: 16px;
+}
+
+.header__nav__link:hover {
+	box-shadow: 0px 4px #f4ffad;
+}
+
+.header__nav__link:active {
+	color: #333333;
+	opacity: 0.6;
+}
+
+.addres__link::before,
+.phone__numbers::before,
+.time__wrapper::before {
+	width: 14px;
+	height: 13px;
+	content: '';
+	display: inline-block;
+	margin-right: 9px;
+}
+
+.addres__link::before {
+	background-image: url('../images/house.svg');
+}
+
+.phone__numbers {
+	display: flex;
+	align-items: center;
+	flex-shrink: 1;
+}
+
+.phone__numbers::before {
+	background-image: url('../images/phone.svg');
+}
+
+.phone__number + .phone__number::before {
+	width: 4px;
+	height: 4px;
+	content: '';
+	display: inline-block;
+	margin: 0 9px;
+	margin-bottom: 2px;
+	background-color: #ffbd54;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.time__wrapper::before {
+	background-image: url('../images/schedule.svg');
+}
+
+.time__wrapper time + time {
+	margin-left: 9px;
+}
+
+.header__nav__list::before {
+	width: 20px;
+	height: 20px;
+	content: '';
+	display: inline-block;
+	margin-right: 12px;
+	background-image: url('../images/fish.svg');
+}
+
+.askme__link {
+	display: flex;
+	align-items: center;
+}
+
+.askme__link::before {
+	width: 25px;
+	height: 25px;
+	content: '';
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url('../images/pet_footprint.svg');
 }
