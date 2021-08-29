@@ -1,0 +1,136 @@
+.feedback {
+   width: 100%;
+   height: 650px;
+   margin-bottom: 247px;
+   background-image: url(../../images/feedback__bg.webp);
+   background-repeat: no-repeat;
+}
+
+.feedback .container {
+   margin: 0 auto;
+   padding: 0;
+   display: flex;
+}
+
+.feedback__maps {
+   margin-right: 165px;
+}
+
+.feedback__block {
+   width: 100%;
+   max-width: 375px;
+   padding-top: 62px;
+}
+
+.feedback__heading {
+   margin-top: 0;
+   margin-bottom: 14px;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 62px;
+   color: #FFFFFF;
+}
+
+.feedback__text {
+   width: 100%;
+   max-width: 334px;
+   margin-top: 0;
+   margin-bottom: 29px;
+   font-size: 14px;
+   line-height: 20px;
+   color: #949494;
+}
+
+.feedback-name {
+   width: 100%;
+   max-width: 375px;
+   height: 50px;
+   margin-bottom: 14px;
+   padding-left: 22px;
+   color: black;
+
+   &:focus {
+      background: #FFFFFF;
+      border: 2px solid #FFBD54;
+      border-radius: 5px;
+
+   }
+
+   &:hover {
+      background: #FFFFFF;
+      border: 2px solid #FFBD54;
+      box-sizing: border-box;
+      border-radius: 5px;
+
+   }
+}
+
+.feedback-email {
+   width: 100%;
+   max-width: 375px;
+   height: 50px;
+   margin-bottom: 14px;
+   padding-left: 22px;
+
+   &:focus {
+      background: #FFFFFF;
+      border: 2px solid #FFBD54;
+      border-radius: 5px;
+
+   }
+
+   &:hover {
+      background: #FFFFFF;
+      border: 2px solid #FFBD54;
+      box-sizing: border-box;
+      border-radius: 5px;
+   }
+
+}
+
+.feedback-massage {
+   width: 100%;
+   max-width: 375px;
+   height: 165px;
+   margin-bottom: 30px;
+   padding-left: 22px;
+   padding-top: 17px;
+
+   &:focus {
+      background: #FFFFFF;
+      border: 2px solid #FFBD54;
+      border-radius: 5px;
+
+   }
+
+   &:hover {
+      background: #FFFFFF;
+      border: 2px solid #FFBD54;
+      box-sizing: border-box;
+      border-radius: 5px;
+   }
+}
+
+.feedback__btn {
+   padding: 15px 50px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   color: #FFFFFF;
+   border: none;
+   border-radius: 3px;
+   background: #FFBD54;
+
+   &:hover {
+      color: #FFBD54;
+      background: #333333;
+      border-radius: 3px;
+   }
+
+   &:active {
+      color: #FFBD54;
+      background: #333333;
+      border-radius: 3px;
+      opacity: 0.6;
+   }
+}

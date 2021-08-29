@@ -1,0 +1,147 @@
+.useful {
+   padding-bottom: 262px;
+}
+
+.useful__heading {
+   margin-top: 0;
+   margin-bottom: 89px;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 20px;
+   text-align: center;
+   color: #333333;
+}
+
+.useful__list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.useful__item {
+   width: 100%;
+   max-width: 305px;
+   background: #FEFEFE;
+   border: 1px solid #E4E4E2;
+   border-radius: 5px;
+
+   &:hover {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   }
+
+   &:active {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   }
+}
+
+.useful__img {
+   margin-bottom: 20px;
+}
+
+.useful__item--block {
+   padding: 0 30px 30px 30px;
+}
+
+.useful__time {
+   margin-bottom: 2px;
+   display: block;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #949494;
+   text-align: end;
+}
+
+.useful__item__heading {
+   margin-top: 0;
+   margin-bottom: 10px;
+   font-weight: bold;
+   font-size: 23px;
+   line-height: 25px;
+   color: #000000;
+}
+
+.useful__item__text {
+   margin-top: 0;
+   margin-bottom: 34px;
+   font-size: 16px;
+   line-height: 20px;
+   color: #949494;
+}
+
+.useful__item__link {
+   display: flex;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #333333;
+
+
+   &::before {
+      width: 25px;
+      height: 25px;
+      content: '';
+      display: inline-block;
+      margin-right: 5px;
+      background-image: url('../images/pet_footprint.svg');
+   }
+}
+
+.useful__item__two {
+   width: 100%;
+   max-width: 640px;
+   display: flex;
+   background: #FFFFFF;
+   border: 1px solid #F3F3F3;
+   border-radius: 5px;
+
+   &:hover {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   }
+
+   &:active {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   }
+}
+
+.useful__img-two {
+   object-fit: cover;
+   border-radius: 5px 0px 0px 5px;
+}
+
+.useful__item__two--block {
+   width: 100%;
+   max-width: 335px;
+   padding: 22px 24px 27px 20px;
+}
+
+.time__link {
+   margin-bottom: 31px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.item__two--link {
+   font-size: 14px;
+   line-height: 22px;
+   color: #3D9CEA;
+}
+
+.useful__item__heading--blod {
+   margin-top: 0;
+   margin-bottom: 15px;
+   font-weight: bold;
+   font-size: 26px;
+   line-height: 29px;
+   color: #333333;
+}
+
+.time__link .useful__time {
+   margin-bottom: 0;
+}
+
+.useful__item__two--block .useful__item__text {
+   width: 100%;
+   max-width: 270px;
+   margin-bottom: 33px;
+   font-size: 16px;
+}
