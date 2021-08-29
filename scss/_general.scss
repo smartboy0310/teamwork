@@ -1,42 +1,54 @@
 *,
 *::before,
 *::after {
-   box-sizing: border-box;
-   scroll-behavior: smooth;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 .visually-hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   border: 0;
-   padding: 0;
-   clip: rect(0 0 0 0);
-   overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 body {
+<<<<<<< HEAD
    margin: 0;
    padding: 0;
    font-family: "Futura PT", "Arila", sans-serif;
    font-size: 16px;
    line-height: 1.5;
+=======
+	margin: 0;
+	padding: 0;
+	font-family: 'FuturaPT', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+>>>>>>> 447595015d91658b2275a6ac2d2c214420ffd92c
 }
 
 img {
-   vertical-align: middle;
+	vertical-align: middle;
 }
 
-li, a {
-   list-style-type:none;
-   text-decoration:none;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul a {
+	text-decoration: none;
 }
 
 .container {
-   width: 100%;
-   max-width: 1320px;
-   margin: 0 auto;
-   padding: 0 20px;
+	width: 100%;
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 20px;
 }
-
